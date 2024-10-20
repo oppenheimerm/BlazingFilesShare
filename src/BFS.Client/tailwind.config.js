@@ -2,7 +2,15 @@
 module.exports = {
   content: ['./**/*.{razor, html}'],
   theme: {
-    extend: {},
+      extend: {
+          colors: {
+              'primary': '#BE3D2C',
+              'black': '#222222'
+          }
+      },
+      fontFamily: {
+          sans: ["'Oswald'", "sans-serif"]
+      }
   },
   plugins: [],
 }
